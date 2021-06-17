@@ -23,25 +23,25 @@ public final class Main extends MIDlet implements Runnable {
         b = false;
         var_boolean_a = true;
         var_Main_a = this;
-//        C.var_int_d = 1;
-//        new C();
+        C.var_int_d = 1;
+        new C();
     }
 
     protected final void startApp() {
-//        Display.getDisplay(this).setCurrent(C.var_C_a);
+        Display.getDisplay(this).setCurrent(C.var_C_a);
     }
-//
+
     protected final void pauseApp() {
         this.notifyPaused();
         System.gc();
     }
-//
+
     protected void destroyApp(boolean bl) {
         b = true;
         this.notifyDestroyed();
     }
-//
+
     public void run() {
-//        C.void_a(3);
+        C.void_a(3);
     }
 }

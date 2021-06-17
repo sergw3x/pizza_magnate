@@ -13,25 +13,25 @@
         <maven.compiler.target>15</maven.compiler.target>
     </properties>
 
-<!--    <dependencies>-->
-<!--        <dependency>-->
-<!--            <groupId>org.microemu</groupId>-->
-<!--            <artifactId>midpapi20</artifactId>-->
-<!--            <version>2.0.4</version>-->
-<!--        </dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>org.microemu</groupId>-->
-<!--            <artifactId>microemu-nokiaui</artifactId>-->
-<!--            <version>2.0.1</version>-->
-<!--        </dependency>-->
-<!--    </dependencies>-->
+    <dependencies>
+        <dependency>
+            <groupId>org.microemu</groupId>
+            <artifactId>midpapi20</artifactId>
+            <version>2.0.4</version>
+        </dependency>
+        <dependency>
+            <groupId>org.microemu</groupId>
+            <artifactId>microemu-nokiaui</artifactId>
+            <version>2.0.1</version>
+        </dependency>
+    </dependencies>
 
 
-<!--    <repositories>-->
-<!--        <repository>-->
-<!--            <id>my-repo1</id>-->
-<!--            <name>your custom repo</name>-->
-<!--            <url>https://repo.maven.apache.org/maven2/</url>-->
-<!--        </repository>-->
-<!--    </repositories>-->
+    <repositories>
+        <repository>
+            <id>my-repo1</id>
+            <name>your custom repo</name>
+            <url>https://repo.maven.apache.org/maven2/</url>
+        </repository>
+    </repositories>
 </project>
